@@ -139,17 +139,22 @@ footer {
 }
 
 .social {
-    margin-bottom: 0.75rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social img {
+    width: 44px;
+    height: 44px;
+    display: block;
 }
 
 .social a {
-    color: #ffffff;
-    margin: 0 0.5rem;
-    text-decoration: none;
-}
-
-social a:hover {
-    color: #d4a72c;
+    display: block;
+    width: 44px;
+    height: 44px;
 }
 
 #course-list {
