@@ -154,20 +154,31 @@ social a:hover {
 
 #course-list {
     display: grid;
-    gap: 0.5rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
     margin-top: 0.75rem;
 }
 
 #course-list div {
-    padding: 0.75rem;
+    padding: 0.85rem;
     text-align: center;
-    background-color: #c21d1d;
+    background-color: #d44528;
     color: #ffffff;
-    border-radius: 5px;
+    border-radius: 8px;
     font-weight: bold;
 }
 
 #course-list .completed {
-    background-color: #1e7a44;
+    background-color: #12ab59;
     color: #ffffff;
+}
+
+#total-credits {
+    text-align: center;
+    font-weight: 700;
+    background-color: #f3f4f6;
+    color: #1f2937;
+    padding: 0.75rem;
+    margin: 0.75rem;
+    border-radius: 6px;
 }

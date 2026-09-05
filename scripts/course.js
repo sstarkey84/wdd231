@@ -78,7 +78,8 @@ const courses = [
     }
 ]
 
-const courseList = document.querySelector('#course-list');
+const courseList = document.querySelector("#course-list");
+const totalCredits = document.querySelector("#total-credits");
 
 function displayCourses(courseArray) {
     courseList.innerHTML = "";
@@ -93,6 +94,12 @@ function displayCourses(courseArray) {
 
         courseList.appendChild(courseCard);
     });
+
+    const credits = courseArray.reduce((total, course) => total + course.credits, 0);
+    totalCredits.textContent = `The total number of credits required is ${credits}`;
+
+    const completedCredits = courseArray.filter(course => course.completed).reduce((total, course) => total + course.credits, 0);
+    totalCredits.textContent += ` | Credits Completed: ${completedCredits}`;
 }
 
 displayCourses(courses);

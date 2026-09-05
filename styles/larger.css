@@ -33,4 +33,8 @@
     .hamburger {
         display: none;
     }
+
+    #course-list {
+        grid-template-columns: 1fr 1fr;
+    }
 }
