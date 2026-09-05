@@ -103,33 +103,6 @@ nav a.active {
     color: #ffffff;
 }
 
-header {
-    display: grid;
-    grid-template-columns: 50px 1fr 50px;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    background-color: #0b2545;
-    color: #ffffff;
-}
-
-header img {
-    width: 40px;
-    height: auto;
-}
-
-header span {
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-.hamburger {
-    background: none;
-    border: none;
-    color: #ffffff;
-    font-size: 2rem;
-    cursor: pointer;
-}
-
 section img {
     display: block;
     width: 100%;
