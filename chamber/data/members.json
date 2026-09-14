@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "Roundhouse Deli",
+            "address": "604 Church St, Roseville, CA 95678",
+            "phone": "916-786-9023",
+            "website": "https://roundhousedeli.com",
+            "image": "roundhouse-deli.webp",
+            "membership": 3
+        },
+        {
+            "name": "Raley's",
+            "address": "1915 Douglas Blvd, Roseville, CA 95661",
+            "phone": "916-781-7845",
+            "website": "https://raleys.com/",
+            "image": "raleys.webp",
+            "membership": 2
+        },
+        {
+            "name": "F45 Training Westpark Roseville",
+            "address": "2310 Pleasant Grove Blvd, Roseville, CA 95747",
+            "phone": "916-580-7642",
+            "website": "https://f45training.com/",
+            "image": "f45.webp",
+            "membership": 1
+        },
+        {
+            "name": "Golfland SunSplash",
+            "address": "1893 Taylor Rd, Roseville, CA 95661",
+            "phone": "916-784-1273",
+            "website": "https://golfland.com/roseville/",
+            "image": "golfland-sunsplash.webp",
+            "membership": 3
+        },
+        {
+            "name": "Sutter Roseville Medical Center",
+            "address": "1 Medical Plaza Dr, Roseville, CA 95661",
+            "phone": "916-781-1000",
+            "website": "https://sutterhealth.org/",
+            "image": "sutter-roseville.webp",
+            "membership": 3
+        },
+        {
+            "name": "Nugget Market",
+            "address": "1509 Blue Oaks Blvd, Roseville, CA 95747",
+            "phone": "916-918-1900",
+            "website": "https://nuggetmarket.com/",
+            "image": "nugget-market.webp",
+            "membership": 2
+        },
+        {
+            "name": "Roseville Toyota",
+            "address": "700 Automall Dr, Roseville, CA 95661",
+            "phone": "916-782-2163",
+            "website": "https://www.rosevilletoyota.com/",
+            "image": "roseville-toyota.webp",
+            "membership": 1
+        }
+    ]
+}
