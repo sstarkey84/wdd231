@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Roseville Chamber of Commerce business directory.">
+    <meta name="author" content="Scott Starkey">
+
+    <link rel="icon" href="../favicon.ico">
+    <meta property="og:title" content="Roseville Chamber of Commerce Directory">
+    <meta property="og:description"
+        content="Explore business and organizations in the Roseville Chamber of Commerce directory.">
+    <meta property="og:image" content="https://sstarkey84.github.io/wdd231/chamber/images/directory.png">
+    <meta property="og:url" content="https://sstarkey84.github.io/wdd231/chamber/directory.html">
+
+    <title>Roseville Chamber of Commerce Directory</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/directory.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="site-name">
+            <span>Roseville Chamber of Commerce</span>
+        </div>
+        <button id="menu" aria-label="Open navigation menu"></button>
+        <nav id="navigation">
+            <a href="index.html">Home</a>
+            <a href="directory.html" class="active">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="discover.html">Discover</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Business Directory</h1>
+        <div class="view-buttons">
+            <button id="grid">Grid</button>
+            <button id="list">List</button>
+        </div>
+        <div id="members" class="grid"></div>
+    </main>
+    <footer>
+        <div class="contact-info">
+            <p><strong>Roseville Chamber of Commerce</strong></p>
+            <p>650 Douglas Blvd</p>
+            <p>Roseville, CA 95678</p>
+            <p>916-783-8136</p>
+        </div>
+        <div class="social-links">
+            <a href="#" aria-label="YouTube">
+                <img src="images/youtube.svg" alt="YouTube">
+            </a>
+            <a href="#" aria-label="Facebook">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="#" aria-label="LinkedIn">
+                <img src="images/linkedin.svg" alt="LinkedIn">
+            </a>
+        </div>
+        <div class="development-info">
+            <p>WDD 231 Class Project</p>
+            <p>Scott Starkey</p>
+            <p>&copy; <span id="currentyear"></span> Roseville Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
