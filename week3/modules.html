@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript ES Modules</title>
+    <link rel="stylesheet" href="styles/modules.css">
+</head>
+
+<body>
+    <main>
+        <h1> JavaScript ES Modules</h1>
+        <section>
+            <h2 id="courseName"></h2>
+            <h3 id="courseCode"></h3>
+            <div id="enrollment">
+                <label for="sectionNumber">Choose a section:</label>
+                <select id="sectionNumber">
+                    <option value="0" disabled selected>--</option>
+                </select>
+                <button id="enrollStudent">Enroll a Student</button>
+                <button id="dropStudent">Drop a Student</button>
+            </div>
+
+        </section>
+        <section>
+            <h2>Sections</h2>
+            <table id="sections">
+                <thead>
+                    <tr>
+                        <th>Sections</th>
+                        <th>Enrolled</th>
+                        <th>Instructor</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+    </main>
+
+    <script type="module" src="scripts/modules.mjs"></script>
+</body>
+
+</html>
