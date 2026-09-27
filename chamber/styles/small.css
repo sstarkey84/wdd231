@@ -272,15 +272,15 @@ footer a {
     animation: fadeIn 1s ease-out both;
 }
 
-.membership-card::nth-child(2) {
+.membership-card:nth-child(2) {
     animation-delay: 0.2s;
 }
 
-.membership-card::nth-child(3) {
+.membership-card:nth-child(3) {
     animation-delay: 0.4s;
 }
 
-.membership-card::nth-child(4) {
+.membership-card:nth-child(4) {
     animation-delay: 0.6s;
 }
 
