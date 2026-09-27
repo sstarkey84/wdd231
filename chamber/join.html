@@ -43,66 +43,67 @@
     </header>
     <main>
         <h1>Join the Roseville Chamber of Commerce</h1>
-        <p>Complete the application below to become a member.</p>
-        <div class="join-container">
-            <section class="membership-form">
-                <h2>Membership Application</h2>
-                <form method="get" action="thankyou.html">
-                    <label>
-                        First Name
-                        <input type="text" name="first-name" title="Enter your first name" autocomplete="given-name"
-                            required>
-                    </label>
-                    <label>
-                        Last Name
-                        <input type="text" name="last-name" title="Enter your last name" autocomplete="family-name"
-                            required>
-                    </label>
-                    <label>
-                        Organization Title
-                        <input type="text" name="organization-title" title="Enter your organziational title"
-                            autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}" required>
-                    </label>
-                    <label>
-                        Email Address
-                        <input type="email" name="email" title="Enter your email address" autocomplete="email"
-                            placeholder="example@email.com" required>
-                    </label>
-                    <label>
-                        Mobile Phone Number
-                        <input type="tel" name="phone" title="Enter your mobile phone number" autocomplete="tel"
-                            required>
-                    </label>
-                    <label>
-                        Business/Organization Name
-                        <input type="text" name="organization" title="Enter your business or organization name"
-                            autocomplete="organization" required>
-                    </label>
-                    <fieldset>
-                        <legend>Membership Level</legend>
+        <section class="join-container">
+            <div class="form-column">
+                <p>Complete the application below to become a member.</p>
+                <section class="membership-form">
+                    <h2>Membership Application</h2>
+                    <form method="get" action="thankyou.html">
                         <label>
-                            <input type="radio" name="membership" value="np" required>NP Membership (Nonprofit)
+                            First Name
+                            <input type="text" name="first-name" title="Enter your first name" autocomplete="given-name"
+                                required>
                         </label>
                         <label>
-                            <input type="radio" name="membership" value="bronze" required>Bronze Membership
+                            Last Name
+                            <input type="text" name="last-name" title="Enter your last name" autocomplete="family-name"
+                                required>
                         </label>
                         <label>
-                            <input type="radio" name="membership" value="silver" required>Silver Membership
+                            Organization Title
+                            <input type="text" name="organization-title" title="Enter your organziational title"
+                                autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}" required>
                         </label>
                         <label>
-                            <input type="radio" name="membership" value="gold" required>Gold Membership
+                            Email Address
+                            <input type="email" name="email" title="Enter your email address" autocomplete="email"
+                                placeholder="example@email.com" required>
                         </label>
-                    </fieldset>
-                    <label>
-                        Business/Organization Description <textarea name="description"
-                            title="Describe your business or organization" rows="5"
-                            placeholder="Tell us about your business or organization"></textarea>
-                    </label>
-                    <input type="hidden" id="timestamp" name="timestamp">
-                    <input type="submit" value="Apply for Membership">
-                </form>
-            </section>
-
+                        <label>
+                            Mobile Phone Number
+                            <input type="tel" name="phone" title="Enter your mobile phone number" autocomplete="tel"
+                                required>
+                        </label>
+                        <label>
+                            Business/Organization Name
+                            <input type="text" name="organization" title="Enter your business or organization name"
+                                autocomplete="organization" required>
+                        </label>
+                        <fieldset>
+                            <legend>Membership Level</legend>
+                            <label>
+                                <input type="radio" name="membership" value="np" required>NP Membership (Nonprofit)
+                            </label>
+                            <label>
+                                <input type="radio" name="membership" value="bronze" required>Bronze Membership
+                            </label>
+                            <label>
+                                <input type="radio" name="membership" value="silver" required>Silver Membership
+                            </label>
+                            <label>
+                                <input type="radio" name="membership" value="gold" required>Gold Membership
+                            </label>
+                        </fieldset>
+                        <label>
+                            Business/Organization Description <textarea name="description"
+                                title="Describe your business or organization" rows="5"
+                                placeholder="Tell us about your business or organization"></textarea>
+                        </label>
+                        <input type="hidden" id="timestamp" name="timestamp">
+                        <input type="submit" value="Apply for Membership">
+                    </form>
+                </section>
+            </div>
             <section class="membership-cards">
                 <h2>Membership Levels</h2>
 
@@ -123,30 +124,30 @@
                         <h3>Gold Membership</h3>
                         <a href="#" id="gold-link">View Benefits</a>
                     </div>
+                </div>
             </section>
-        </div>
-        <dialog id="np-dialog">
-            <h2>NP Membership Benefits</h2>
-            <p>No membership fee for nonprofit organizations.</p>
-            <p>Includes networking events and community resources.</p>
-            <button type="button" class="close-dialog">Close</button>
-        </dialog>
-        <dialog id="bronze-dialog">
-            <h2>Bronze Membership Benefits</h2>
-            <p>Access to networking events and business training.</p>
-            <button type="button" class="close-dialog">Close</button>
-        </dialog>
-        <dialog id="silver-dialog">
-            <h2>Silver Membership Benefits</h2>
-            <p>Includes Bronze benefits, event discounts, and advertising opportunities.</p>
-            <button type="button" class="close-dialog">Close</button>
-        </dialog>
-        <dialog id="gold-dialog">
-            <h2>Gold Membership Benefits</h2>
-            <p>Includes Silver benefits, premium advertising, and featured business spotlights.</p>
-            <button type="button" class="close-dialog">Close</button>
-        </dialog>
-
+            <dialog id="np-dialog">
+                <h2>NP Membership Benefits</h2>
+                <p>No membership fee for nonprofit organizations.</p>
+                <p>Includes networking events and community resources.</p>
+                <button type="button" class="close-dialog">Close</button>
+            </dialog>
+            <dialog id="bronze-dialog">
+                <h2>Bronze Membership Benefits</h2>
+                <p>Access to networking events and business training.</p>
+                <button type="button" class="close-dialog">Close</button>
+            </dialog>
+            <dialog id="silver-dialog">
+                <h2>Silver Membership Benefits</h2>
+                <p>Includes Bronze benefits, event discounts, and advertising opportunities.</p>
+                <button type="button" class="close-dialog">Close</button>
+            </dialog>
+            <dialog id="gold-dialog">
+                <h2>Gold Membership Benefits</h2>
+                <p>Includes Silver benefits, premium advertising, and featured business spotlights.</p>
+                <button type="button" class="close-dialog">Close</button>
+            </dialog>
+        </section>
     </main>
     <footer>
         <div class="contact-info">
