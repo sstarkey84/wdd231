@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Apply to join the Roseville Chamber of Commerce and explore our membership benefits.">
+    <meta name="author" content="Scott Starkey">
+
+    <link rel="icon" href="../favicon.ico">
+    <meta property="og:title" content="Roseville Chamber of Commerce">
+    <meta property="og:description"
+        content="Explore businesses and organizations in the Roseville Chamber of Commerce directory.">
+    <meta property="og:image" content="https://sstarkey84.github.io/wdd231/chamber/images/directory.png">
+    <meta property="og:url" content="https://sstarkey84.github.io/wdd231/chamber/join.html">
+
+    <title>Join Roseville Chamber of Commerce</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="site-name">
+            <span>Roseville Chamber of Commerce</span>
+        </div>
+        <button id="menu" aria-label="Open navigation menu"></button>
+        <nav id="navigation">
+            <a href="index.html">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html" class="active">Join</a>
+            <a href="discover.html">Discover</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Join the Roseville Chamber of Commerce</h1>
+        <p>Complete the application below to become a member.</p>
+        <div class="join-container">
+            <section class="membership-form">
+                <h2>Membership Application</h2>
+                <form method="get" action="thankyou.html">
+                    <label>
+                        First Name
+                        <input type="text" name="first-name" title="Enter your first name" autocomplete="given-name"
+                            required>
+                    </label>
+                    <label>
+                        Last Name
+                        <input type="text" name="last-name" title="Enter your last name" autocomplete="family-name"
+                            required>
+                    </label>
+                    <label>
+                        Organization Title
+                        <input type="text" name="organization-title" title="Enter your organziational title"
+                            autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}" required>
+                    </label>
+                    <label>
+                        Email Address
+                        <input type="email" name="email" title="Enter your email address" autocomplete="email"
+                            placeholder="example@email.com" required>
+                    </label>
+                    <label>
+                        Mobile Phone Number
+                        <input type="tel" name="phone" title="Enter your mobile phone number" autocomplete="tel"
+                            required>
+                    </label>
+                    <label>
+                        Business/Organization Name
+                        <input type="text" name="organization" title="Enter your business or organization name"
+                            autocomplete="organization" required>
+                    </label>
+                    <fieldset>
+                        <legend>Membership Level</legend>
+                        <label>
+                            <input type="radio" name="membership" value="np" required>NP Membership (Nonprofit)
+                        </label>
+                        <label>
+                            <input type="radio" name="membership" value="bronze" required>Bronze Membership
+                        </label>
+                        <label>
+                            <input type="radio" name="membership" value="silver" required>Silver Membership
+                        </label>
+                        <label>
+                            <input type="radio" name="membership" value="gold" required>Gold Membership
+                        </label>
+                    </fieldset>
+                    <label>
+                        Business/Organization Description <textarea name="description"
+                            title="Describe your business or organization" rows="5"
+                            placeholder="Tell us about your business or organization"></textarea>
+                    </label>
+                    <input type="hidden" id="timestamp" name="timestamp">
+                    <input type="submit" value="Apply for Membership">
+                </form>
+            </section>
+
+            <section class="membership-cards">
+                <h2>Membership Levels</h2>
+
+                <div class="membership-grid">
+                    <div class="membership-card">
+                        <h3>NP Membership</h3>
+                        <a href="#" id="np-link">View Benefits</a>
+                    </div>
+                    <div class="membership-card">
+                        <h3>Bronze Membership</h3>
+                        <a href="#" id="bronze-link">View Benefits</a>
+                    </div>
+                    <div class="membership-card">
+                        <h3>Silver Membership</h3>
+                        <a href="#" id="silver-link">View Benefits</a>
+                    </div>
+                    <div class="membership-card">
+                        <h3>Gold Membership</h3>
+                        <a href="#" id="gold-link">View Benefits</a>
+                    </div>
+            </section>
+        </div>
+        <dialog id="np-dialog">
+            <h2>NP Membership Benefits</h2>
+            <p>No membership fee for nonprofit organizations.</p>
+            <p>Includes networking events and community resources.</p>
+            <button type="button" class="close-dialog">Close</button>
+        </dialog>
+        <dialog id="bronze-dialog">
+            <h2>Bronze Membership Benefits</h2>
+            <p>Access to networking events and business training.</p>
+            <button type="button" class="close-dialog">Close</button>
+        </dialog>
+        <dialog id="silver-dialog">
+            <h2>Silver Membership Benefits</h2>
+            <p>Includes Bronze benefits, event discounts, and advertising opportunities.</p>
+            <button type="button" class="close-dialog">Close</button>
+        </dialog>
+        <dialog id="gold-dialog">
+            <h2>Gold Membership Benefits</h2>
+            <p>Includes Silver benefits, premium advertising, and featured business spotlights.</p>
+            <button type="button" class="close-dialog">Close</button>
+        </dialog>
+
+    </main>
+    <footer>
+        <div class="contact-info">
+            <p><strong>Roseville Chamber of Commerce</strong></p>
+            <p>650 Douglas Blvd</p>
+            <p>Roseville, CA 95678</p>
+            <p>916-783-8136</p>
+        </div>
+        <div class="social-links">
+            <a href="#" aria-label="YouTube">
+                <img src="images/youtube.svg" alt="Roseville Chamber of Commerce YouTube">
+            </a>
+            <a href="#" aria-label="Facebook">
+                <img src="images/facebook.svg" alt="Roseville Chamber of Commerce Facebook">
+            </a>
+            <a href="#" aria-label="LinkedIn">
+                <img src="images/linkedin.svg" alt="Roseville Chamber of Commerce LinkedIn">
+            </a>
+        </div>
+        <div class="development-info">
+            <p>WDD 231 Class Project</p>
+            <p>Scott Starkey</p>
+            <p>&copy; <span id="currentyear"></span> Roseville Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/join.js" defer></script>
+</body>
+
+</html>
