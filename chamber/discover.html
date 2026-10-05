@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Discover attractions, parks, shopping, recreation, and other places of interest in Roseville, California.">
+    <meta name="author" content="Scott Starkey">
+
+    <link rel="icon" href="../favicon.ico">
+    <meta property="og:title" content="Discover Roseville">
+    <meta property="og:description"
+        content="Explore businesses and organizations in the Roseville Chamber of Commerce directory.">
+    <meta property="og:image" content="https://sstarkey84.github.io/wdd231/chamber/images/directory.png">
+    <meta property="og:url" content="https://sstarkey84.github.io/wdd231/chamber/discover.html">
+
+    <title>Discover Roseville | Roseville Chamber of Commerce</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script type="module" src="scripts/discover.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="site-name">
+            <span>Roseville Chamber of Commerce</span>
+        </div>
+        <button id="menu" aria-label="Open navigation menu"></button>
+        <nav id="navigation">
+            <a href="index.html">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="discover.html" class="active">Discover</a>
+        </nav>
+    </header>
+    <main class="discover-main">
+        <h1>Discover Roseville</h1>
+        <div id="visit-message"></div>
+        <section class="discover-grid" id="discover-cards"></section>
+
+    </main>
+    <footer>
+        <div class="contact-info">
+            <p><strong>Roseville Chamber of Commerce</strong></p>
+            <p>650 Douglas Blvd</p>
+            <p>Roseville, CA 95678</p>
+            <p>916-783-8136</p>
+        </div>
+        <div class="social-links">
+            <a href="#" aria-label="YouTube">
+                <img src="images/youtube.svg" alt="YouTube">
+            </a>
+            <a href="#" aria-label="Facebook">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="#" aria-label="LinkedIn">
+                <img src="images/linkedin.svg" alt="LinkedIn">
+            </a>
+        </div>
+        <div class="development-info">
+            <p>WDD 231 Class Project</p>
+            <p>Scott Starkey</p>
+            <p>&copy; <span id="currentyear"></span> Roseville Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -386,3 +386,64 @@ main>p {
     max-width: 900px;
     padding-left: 1rem;
 }
+
+.discover-main {
+    padding: 1rem;
+}
+
+#visit-message {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #eee;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.discover-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.discover-grid section {
+    display: grid;
+    grid-template-areas:
+        "title"
+        "image"
+        "address"
+        "description"
+        "button";
+    padding: 1rem;
+    border: 1px solid #555;
+    border-radius: 8px;
+}
+
+.discover-grid h2 {
+    grid-area: title;
+}
+
+.discover-grid figure {
+    grid-area: image;
+    margin: 0;
+}
+
+.discover-grid img {
+    width: 100%;
+    max-width: 300px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.discover-grid address {
+    grid-area: address;
+    margin: 0.75rem 0;
+}
+
+.discover-grid p {
+    grid-area: description;
+}
+
+.discover-grid button {
+    grid-area: button;
+    padding: 0.75rem;
+    cursor: pointer;
+}

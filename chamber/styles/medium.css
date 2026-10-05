@@ -1,0 +1,26 @@
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+    .discover-grid section {
+        grid-template-areas:
+            "image title"
+            "image address"
+            "image description"
+            "image button";
+        grid-template-columns: 300px 1fr;
+        gap: 0 1rem;
+    }
+
+    .discover-grid img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .discover-grid img {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .discover-grid img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
+}
