@@ -143,7 +143,7 @@
             "image address"
             "image description"
             "image button";
-        grid-template-columns: 300px 1 fr;
+        grid-template-columns: 300px 1fr;
         gap: 0 1rem;
     }
 
