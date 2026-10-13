@@ -1,0 +1,37 @@
+@media screen and (min-width: 768px) {
+    #menu-button {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav a {
+        padding: 0.9rem 1.5rem;
+    }
+
+    .home-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hunt-filters {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1.5rem;
+    }
+
+    .hunt-filters h2 {
+        grid-column: 1 / -1;
+    }
+
+    .hunting-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}

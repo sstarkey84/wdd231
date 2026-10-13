@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="California Hunting Guide provides information about California game species, hunting locations, seasons, and resources for hunters.">
+    <meta name="author" content="Scott Starkey">
+
+    <meta property="og:title" content="California Hunting Guide">
+    <meta property="og:description" content="Find California hunting locations, game species, and resources.">
+    <meta property="og:type" content="website">
+
+    <title>California Hunting Guide | Resources</title>
+
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/footer.js" defer></script>
+    <script src="scripts/resources.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="site-header">
+            <a class="site-name" href="index.html">California Hunting Guide</a>
+            <button id="menu-button" aria-label="Open navigation menu">&#9776;</button>
+        </div>
+
+        <nav id="navigation">
+            <a href="index.html">Home</a>
+            <a href="locations.html">Hunting Locations</a>
+            <a class="active" href="resources.html">Resources</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="resources-into">
+            <h1>California Hunting Resources</h1>
+            <p>
+                Find official information about California hunting licenses, and tag information.
+            </p>
+        </section>
+        <section class="resourse-list">
+            <h2>Offical Hunting Resources</h2>
+            <article>
+                <h3>California Department of Fish and Wildlife</h3>
+                <p>
+                    Official hunting regulations, seasons, licenses, and tag information.
+                </p>
+                <a href="https://wildlife.ca.gov/Hunting" target="_blank" rel="noopener noreferrer">Visit CDFW
+                    Hunting</a>
+            </article>
+            <article>
+                <h3>California Hunting Licenses</h3>
+                <p>
+                    Information about purchasing hunting licenses and applying for big game tags.
+                </p>
+                <a href="https://wildlife.ca.gov/Licensing/Hunting" target="_blank" rel="noopener noreferrer">View
+                    Hunting Licenses</a>
+            </article>
+            <article>
+                <h3>California Hunting Regulations</h3>
+                <p>
+                    Review current hunting seasons, bag limits, hunting zones, and regulations for California.
+                </p>
+                <a href="https://wildlife.ca.gov/Regulations" target="_blank" rel="noopener noreferrer">View Hunting
+                    Regulations</a>
+            </article>
+        </section>
+        <section class="contact-section">
+            <h2>Request Hunting Information</h2>
+            <p>
+                Submit your information to receive additional hunting resources.
+            </p>
+
+            <form action="form-action.html" method="get">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" autocomplete="name" required>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+                <label for="species">Hunting Interest:</label>
+                <select id="species" name="species" required>
+                    <option value="">Select a Species</option>
+                    <option value="Deer">Deer</option>
+                    <option value="Elk">Elk</option>
+                    <option value="Bear">Bear</option>
+                    <option value="Wild Pig">Wild Pig</option>
+                    <option value="Turkey">Turkey</option>
+                </select>
+                <button type="submit">Submit Request</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> California Hunting Guide | Scott Starkey</p>
+        <p><a href="attributions.html">Attributions</a></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

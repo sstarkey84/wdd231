@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="California Hunting Guide provides information about California game species, hunting locations, seasons, and resources for hunters.">
+    <meta name="author" content="Scott Starkey">
+
+    <meta property="og:title" content="California Hunting Guide">
+    <meta property="og:description" content="Find California hunting locations, game species, and resources.">
+    <meta property="og:type" content="website">
+
+    <title>California Hunting Guide | Home</title>
+
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="site-header">
+            <a class="site-name" href="index.html">California Hunting Guide</a>
+            <button id="menu-button" aria-label="Open navigation menu">&#9776;</button>
+        </div>
+
+        <nav id="navigation">
+            <a class="active" href="index.html">Home</a>
+            <a href="locations.html">Hunting Locations</a>
+            <a href="resources.html">Resources</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="images/hero.jpeg" alt="California wilderness and mule deer" class="hero-image">
+            <div class="hero-content">
+                <h1>California Hunting Guide</h1>
+                <p>Find hunting opportunities, game species, seasons, and resources throughout California.</p>
+                <a class="button" href="locations.html">Find a Hunt</a>
+            </div>
+
+        </section>
+
+        <section class="home-grid">
+            <article>
+                <h2>Find a Hunt</h2>
+                <p>Explore hunting opportunites throughout California and search by game species or region.</p>
+                <a href="locations.html">Explore Hunting Locations</a>
+            </article>
+            <article>
+                <h2>Featured Game Species</h2>
+                <p>Learn about popular California game species and where hunting opportunities can be found.</p>
+                <a href="locations.html">View Game Species</a>
+            </article>
+        </section>
+        <section class="seasons">
+            <h2>Hunting Seasons</h2>
+            <p>California hunting seasons and regulations vary by species, zone, and hunting method. Always verify
+                current regulations before hunting.</p>
+            <a href="resources.html">View Hunting Resources</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> California Hunting Guide | Scott Starkey</p>
+        <p><a href="attributions.html">Attributions</a></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

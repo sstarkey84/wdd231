@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "species": "Deer",
+        "region": "Northern California",
+        "location": "Shasta-Trinity National Forest",
+        "habitat": "Mountain forests",
+        "description": "Public land with deer habitat and varied terrain."
+    },
+    {
+        "id": 2,
+        "species": "Deer",
+        "region": "Central California",
+        "location": "Los Padres National Forest",
+        "habitat": "Oak woodlands and chaparral",
+        "description": "Mountainous terrain with deer habitat."
+    },
+    {
+        "id": 3,
+        "species": "Deer",
+        "region": "Southern California",
+        "location": "Cleveland National Forest",
+        "habitat": "Chaparral and mountains",
+        "description": "Southern California deer habitat."
+    },
+    {
+        "id": 4,
+        "species": "Elk",
+        "region": "Northern California",
+        "location": "Klamath Mountains",
+        "habitat": "Forests and meadows",
+        "description": "Region with Roosevelt elk habitat."
+    },
+    {
+        "id": 5,
+        "species": "Elk",
+        "region": "Central California",
+        "location": "Cache Creek Region",
+        "habitat": "Grasslands and oak woodlands",
+        "description": "Region with tule elk habitat."
+    },
+    {
+        "id": 6,
+        "species": "Elk",
+        "region": "Southern California",
+        "location": "Tehachapi Mountains",
+        "habitat": "Grasslands and mountain slopes",
+        "description": "Region with elk habitat."
+    },
+    {
+        "id": 7,
+        "species": "Bear",
+        "region": "Northern California",
+        "location": "Lassen National Forest",
+        "habitat": "Conifer forests",
+        "description": "Forested habitat for California black bears."
+    },
+    {
+        "id": 8,
+        "species": "Bear",
+        "region": "Central California",
+        "location": "Sierra National Forest",
+        "habitat": "Mountain forests",
+        "description": "Black bear habitat in the Sierra Nevada."
+    },
+    {
+        "id": 9,
+        "species": "Bear",
+        "region": "Southern California",
+        "location": "San Bernardino National Forest",
+        "habitat": "Mountain forests",
+        "description": "Black bear habitat in Southern California."
+    },
+    {
+        "id": 10,
+        "species": "Wild Pig",
+        "region": "Northern California",
+        "location": "Mendocino County",
+        "habitat": "Oak woodlands and grasslands",
+        "description": "Region with wild pig populations."
+    },
+    {
+        "id": 11,
+        "species": "Wild Pig",
+        "region": "Central California",
+        "location": "Monterey County",
+        "habitat": "Oak woodlands and rolling hills",
+        "description": "Region known for wild pig habitat."
+    },
+    {
+        "id": 12,
+        "species": "Wild Pig",
+        "region": "Southern California",
+        "location": "Santa Barbara County",
+        "habitat": "Chaparral and oak woodlands",
+        "description": "Region with wild pig habitat."
+    },
+    {
+        "id": 13,
+        "species": "Turkey",
+        "region": "Northern California",
+        "location": "Shasta County",
+        "habitat": "Oak woodlands and open fields",
+        "description": "Region with wild turkey habitat."
+    },
+    {
+        "id": 14,
+        "species": "Turkey",
+        "region": "Central California",
+        "location": "El Dorado County",
+        "habitat": "Oak woodlands and foothills",
+        "description": "Foothill habitat for wild turkeys."
+    },
+    {
+        "id": 15,
+        "species": "Turkey",
+        "region": "Southern California",
+        "location": "San Diego County",
+        "habitat": "Oak woodlands and grasslands",
+        "description": "Region with established wild turkey populations."
+    }
+]

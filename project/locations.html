@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="California Hunting Guide provides information about California game species, hunting locations, seasons, and resources for hunters.">
+    <meta name="author" content="Scott Starkey">
+
+    <meta property="og:title" content="California Hunting Guide">
+    <meta property="og:description" content="Find California hunting locations, game species, and resources.">
+    <meta property="og:type" content="website">
+
+    <title>California Hunting Guide | Locations</title>
+
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script type="module" src="scripts/hunting.js"></script>
+    <script src="scripts/footer.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="site-header">
+            <a class="site-name" href="index.html">California Hunting Guide</a>
+            <button id="menu-button" aria-label="Open navigation menu">&#9776;</button>
+        </div>
+
+        <nav id="navigation">
+            <a href="index.html">Home</a>
+            <a class="active" href="locations.html">Hunting Locations</a>
+            <a href="resources.html">Resources</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="locations-intro">
+            <h1>California Hunting Locations</h1>
+            <p>
+                Explore hunting opportunities throughout California. Browse game species, hunting regions, and general
+                information to help plan your next hunt.
+            </p>
+        </section>
+        <section class="hunt-filters">
+            <h2>Find a Hunting Opportunity</h2>
+            <div class="filter-group">
+                <label for="species-filter">Game Species:</label>
+                <select id="species-filter">
+                    <option value="all">All Species</option>
+                    <option value="Deer">Deer</option>
+                    <option value="Elk">Elk</option>
+                    <option value="Bear">Bear</option>
+                    <option value="Wild Pig">Wild Pig</option>
+                    <option value="Turkey">Turkey</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="region-filter">California Region</label>
+                <select id="region-filter">
+                    <option value="all">All Regions</option>
+                    <option value="Northern California">Northern California</option>
+                    <option value="Central California">Central California</option>
+                    <option value="Southern California">Southern California</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="hunting-results">
+            <h2>Hunting Opportunities</h2>
+            <div id="hunting-cards" class="hunting-grid"></div>
+        </section>
+        <dialog id="hunt-dialog">
+            <button id="close-dialog" type="button" aria-label="Close details">X</button>
+            <div id="dialog-content"></div>
+        </dialog>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> California Hunting Guide | Scott Starkey</p>
+        <p><a href="attributions.html">Attributions</a></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
